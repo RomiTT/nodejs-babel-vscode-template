@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-babel-vscode-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "keywords": [],
+  "author": "Bowgum",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.2.2",
+    "apollo-server-express": "^2.2.2",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
